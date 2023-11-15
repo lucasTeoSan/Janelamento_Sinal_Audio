@@ -9,15 +9,21 @@ Exemplo de uso:
 
 Entradas
 
-y=sinal original\n
+y=sinal original
+
 fs=frequência de amostragem 
+
 width_window_s=largura da janela em segundos 
+
 overlap_percent= porcentagem de overlap
+
 plotar= plotar a segmentação do sinal (Utilizado para debug)
+
 
 Saída:
 
 s=matriz com os sinais segmnetados 
+
 n=numero de amostras após a segmentação
 
 ![untitled](https://github.com/lucasTeoSan/Janelamento_Sinal_Audio/assets/34036704/4fd8178c-98ab-441b-99fc-71c27ea8dee2)
