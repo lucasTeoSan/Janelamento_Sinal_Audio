@@ -3,6 +3,10 @@ function [s,n_sample,width_window_sample]=janelamento(y,fs,width_window_s,overla
     mode_test=plotar;
     
     y_aux=y;
+
+    if mode_test==1
+        y_aux=y_aux(1:480000);
+    end
     
     %transforma a largura da janela em segundo em amostras
     width_window_sample=width_window_s*fs;
@@ -11,7 +15,7 @@ function [s,n_sample,width_window_sample]=janelamento(y,fs,width_window_s,overla
     %da janela
     overlap_sample=width_window_sample*(overlap_percent/100);
     
-    d=size(y,1)/fs; %duração do sinal em segundos
+    d=size(y_aux,1)/fs; %duração do sinal em segundos
     o=overlap_sample/fs; %duração da sobreposição em segundos
     j=width_window_s; %duração da janela da amostra em segundos
     
@@ -21,7 +25,6 @@ function [s,n_sample,width_window_sample]=janelamento(y,fs,width_window_s,overla
     
     %Para debug
     if mode_test==1
-        %y_aux=y_aux(1:480000);
         plot(y_aux);
         xlim([0 size(y_aux,1)]);
         xlabel("Amostra");
