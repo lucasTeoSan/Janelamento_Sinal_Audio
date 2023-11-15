@@ -7,7 +7,7 @@ Exemplo de uso:
 
 [s,n]=janelamento(y,fs,width_window_s,overlap_percent,0);
 
-Entradas
+** Entradas:
 
 y=sinal original
 
