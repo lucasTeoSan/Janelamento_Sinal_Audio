@@ -3,6 +3,7 @@ Aplicação em matlab que faz o janelamento (segmentação) de um sinal de áudi
 
 O arquivo "janelamento" é a função que segmenta o sinal.
 
+ 
 O arquivo "janelamento_sinal" utiliza a fução janelamento para executar esse processamento em lote (batch).
 
 ## Exemplo de uso da função:
