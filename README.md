@@ -2,6 +2,7 @@
 Aplicação em matlab que faz o janelamento (segmentação) de um sinal de áudio (.wav) com overlap. Com essa função é possível realizar um aumento artificial das amostras de um banco de dados.
 
 O arquivo "janelamento" é a função que segmenta o sinal.
+
 O arquivo "janelamento_sinal" utiliza a fução janelamento para executar esse processamento em lote (batch).
 
 ## Exemplo de uso da função:
