@@ -25,7 +25,7 @@ O arquivo "janelamento" é a função que segmenta o sinal.
 **Saída:**
 
 
-**s**= Matriz com os sinais segmnetados 
+**s**= Matriz com os sinais segmentados 
 
 **n**= Número de amostras após a segmentação
 
