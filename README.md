@@ -9,7 +9,7 @@ Exemplo de uso:
 
 Entradas
 
-y=sinal original
+y=sinal original\n
 fs=frequência de amostragem 
 width_window_s=largura da janela em segundos 
 overlap_percent= porcentagem de overlap
